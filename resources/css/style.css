@@ -1,0 +1,115 @@
+html {
+  font-size: 16px;
+}
+
+/* header */
+
+header {
+  height: 4rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header .logo {
+  display: flex;
+  align-items: center;
+  height: 2.5rem;
+}
+
+header .logo img {
+  padding-left: 1.5rem;
+}
+
+.colmar {
+  color: black;
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+.academy {
+  color: darkgrey;
+  font-size: 1.5rem;
+}
+
+nav {
+  padding-right: 1.5rem;
+}
+
+nav ul {
+  display: flex;
+  align-items: center;
+  font-size: 1rem;
+}
+
+.spacer {
+  background-color: aquamarine;
+  height: 4rem;
+  width: 1rem;
+}
+
+header span {
+  font-family: helvetica;
+}
+
+/* first section */
+
+section {
+
+  display: flex;
+  justify-content: center;
+  background-color: lightgrey;
+}
+
+.first .image-content {
+
+  padding: 2rem 1.5rem;
+  width: 60%;
+
+}
+
+.first .image-content img {
+  width: 100%;
+  height: auto;
+}
+
+
+.first .written-content {
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: left;
+
+  font-family: helvetica;
+  color: grey;
+  width: 30%;
+
+}
+
+.first .written-content h2 {
+  font-size: 3rem;
+  font-weight: bold;
+  line-height: 3rem;
+}
+
+.first .written-content h4 {
+  font-size: 1.5rem;
+  line-height: 1.5rem;
+  padding: 2rem 0;
+}
+
+.first .written-content .button h4 {
+  color: white;
+  padding:.5rem 0;
+  font-size: 2rem;
+  line-height: 4rem;
+}
+
+.first .written-content .button {
+  background-color: grey;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
