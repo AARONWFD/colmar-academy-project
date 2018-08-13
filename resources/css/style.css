@@ -1,5 +1,17 @@
+/* global */
+
 html {
   font-size: 16px;
+}
+
+h2, p, h4, a {
+  font-family: helvetica;
+}
+
+
+
+div {
+  border: 1px solid black;
 }
 
 /* header */
@@ -42,8 +54,8 @@ nav ul {
   font-size: 1rem;
 }
 
-.spacer {
-  background-color: aquamarine;
+li .spacer {
+  background-color: lightblue;
   height: 4rem;
   width: 1rem;
 }
@@ -54,62 +66,133 @@ header span {
 
 /* first section */
 
-section {
-
+.first {
   display: flex;
-  justify-content: center;
   background-color: lightgrey;
 }
 
-.first .image-content {
-
-  padding: 2rem 1.5rem;
+.first .left {
   width: 60%;
-
+  display: flex;
 }
 
-.first .image-content img {
+.first .left .image-container {
+  max-width: 100%;
+  height: auto;
+  padding: 2rem 1.5rem;
+}
+
+.first .left .image-container img {
   width: 100%;
   height: auto;
 }
 
+.first .right {
+  width: 40%;
+  display: flex;
+}
 
-.first .written-content {
+.first .right .words {
 
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: left;
-
-  font-family: helvetica;
-  color: grey;
-  width: 30%;
-
 }
 
-.first .written-content h2 {
+.first .right .words h2 {
   font-size: 3rem;
   font-weight: bold;
-  line-height: 3rem;
 }
 
-.first .written-content h4 {
-  font-size: 1.5rem;
-  line-height: 1.5rem;
-  padding: 2rem 0;
-}
-
-.first .written-content .button h4 {
-  color: white;
-  padding:.5rem 0;
+.first .right .words p {
   font-size: 2rem;
-  line-height: 4rem;
+  padding: 2rem 0rem;
 }
 
-.first .written-content .button {
+.first .right .words .button {
   background-color: grey;
-  width: 100%;
+  color: white;
+  text-align: center;
+  padding: .5rem 0rem;
+}
+
+/* second section */
+
+.second {
   display: flex;
+}
+
+.second .left {
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+}
+
+
+
+.second .left .image-container {
+  max-width: 100%;
+  height: auto;
+  padding: 2rem 1.5rem;
+}
+
+.second .left .image-container img {
+  width: 100%;
+  height: auto;
+}
+
+.second .left .image-text {
+  display: flex;
+  flex-direction: column;
+  padding: 0rem 1.5rem 2rem 1.5rem;
+}
+
+.second .left .image-text h2 {
+  font-size: 3rem;
+  font-weight: bold;
+}
+
+.second .left .image-text p {
+  font-size: .9rem;
+  padding-top: 1.5rem;
+}
+
+.second .right {
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+}
+
+.second .right .article {
+  display: flex;
+}
+
+.second .right .article .image-container {
+  padding: 1rem;
+  max-width: 35%;
+  display: block;
+
+}
+
+.second .right .article .image-container img {
+  width: 100%;
+  height: auto;
+}
+
+.second .right .article .info {
+  display: flex;
+  flex-direction: column;
   justify-content: center;
-  align-items: center;
+  width: 65%;
+
+}
+
+.second .right .article .info h2 {
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.second .right .article .info p {
+  font-size: 1rem;
+  padding: .5rem 0rem;
 }
