@@ -4,7 +4,7 @@ html {
   font-size: 16px;
 }
 
-h2, p, h4, a {
+h2, p, h4, a, span {
   font-family: helvetica;
 }
 
@@ -56,6 +56,10 @@ li .spacer {
 
 header span {
   font-family: helvetica;
+}
+
+  .mobile-nav  {
+  display: none;
 }
 
 /* first section */
@@ -157,6 +161,7 @@ header span {
 
 .second .right .article {
   display: flex;
+  padding-top: 1rem;
 }
 
 .second .right .article .image-container {
@@ -316,6 +321,7 @@ header span {
 
 .fourth .right .article {
   display: flex;
+  padding-top: 1rem;
 }
 
 .fourth .right .article .image-container {
@@ -366,4 +372,103 @@ footer .copyright p {
 .footer-nav ul li span{
   padding: 1rem 1.5rem;
   font-family: helvetica;
+}
+
+/* media queries */
+
+@media screen and (max-width: 479px) {
+
+  /* for header */
+
+  .mobile-nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  }
+
+  .mobile-nav img {
+    padding-left: 2rem;
+  }
+
+  header .logo ,
+  header .logo img ,
+  .colmar ,
+  .academy ,
+  nav ,
+  nav ul ,
+  li .spacer ,
+  header span {
+    display: none;
+  }
+
+  /* first section */
+
+  .first {
+    flex-direction: column;
+  }
+
+  .first .left .image-container {
+    width: 100%;
+    height: auto;
+    padding: 0rem;
+  }
+
+  .first .left {
+    width: 100%;
+  }
+
+  .first .spaceholder {
+    display: none;
+  }
+
+  .first .right {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+
+  .first .right .words .button {
+    margin: 0rem 1rem 1rem 1rem;
+
+  }
+
+  .first .right .words h2 ,
+  .first .right .words p {
+    padding-left: 1rem;
+  }
+
+  /* second section */
+
+.second .left {
+  display: none;
+}
+
+.second .right{
+  width: 100%;
+  padding-bottom: 1rem;
+}
+
+.second .right .article {
+  flex-direction: column;
+  padding-top: 0rem;
+}
+
+.second .right .article .image-container {
+  padding: 1rem;
+  max-width: 479px;
+  display: flex;
+}
+
+.second .right .article .info {
+  margin-left: 2rem;
+  width: 100%;
+}
+
+
+
+
+
+div {
+  border: 1px solid black;
 }
