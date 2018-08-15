@@ -196,3 +196,73 @@ header span {
   font-size: 1rem;
   padding: .5rem 0rem;
 }
+
+/* third section */
+
+.third {
+  background-color: lightgrey;
+}
+
+.third .heading {
+  font-size: 3rem;
+  font-weight: bold;
+  color: black;
+  padding: 2rem 0rem;
+  text-align: center;
+}
+
+.third .courses {
+  display: flex;
+  justify-content: center;
+}
+
+.third .courses .container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+
+
+}
+
+.third .courses .container .box {
+  display: flex;
+  flex-direction: column;
+  width: 25%;
+
+  padding-left: 1rem;
+  padding-right: 1rem;
+  padding-bottom: 2rem;
+}
+
+.third .courses .container .box .top {
+  display: block;
+  background-color: white;
+}
+
+.third .courses .container .box .top img {
+  width: 100%;
+  height: auto;
+  padding: 0rem;
+  margin: auto 0;
+}
+
+.third .courses .container .box .bottom {
+  background-color: white;
+  height: 100%;
+}
+
+.third .courses .container .box .bottom h4 {
+  color: black;
+  font-size: 2rem;
+  font-weight: bold;
+  padding-left: 1rem;
+  padding-top: 1rem;
+}
+
+.third .courses .container .box .bottom p {
+  color: grey;
+  font-size: 1rem;
+  padding-left: 1rem;
+  padding-top: .5rem;
+  padding-bottom: .5rem;
+}
