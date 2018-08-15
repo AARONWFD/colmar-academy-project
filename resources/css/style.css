@@ -8,12 +8,6 @@ h2, p, h4, a {
   font-family: helvetica;
 }
 
-
-
-div {
-  border: 1px solid black;
-}
-
 /* header */
 
 header {
@@ -128,8 +122,6 @@ header span {
   flex-direction: column;
 }
 
-
-
 .second .left .image-container {
   max-width: 100%;
   height: auto;
@@ -171,7 +163,6 @@ header span {
   padding: 1rem;
   max-width: 35%;
   display: block;
-
 }
 
 .second .right .article .image-container img {
@@ -184,7 +175,6 @@ header span {
   flex-direction: column;
   justify-content: center;
   width: 65%;
-
 }
 
 .second .right .article .info h2 {
@@ -220,15 +210,12 @@ header span {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-
-
 }
 
 .third .courses .container .box {
   display: flex;
   flex-direction: column;
   width: 25%;
-
   padding-left: 1rem;
   padding-right: 1rem;
   padding-bottom: 2rem;
@@ -265,4 +252,118 @@ header span {
   padding-left: 1rem;
   padding-top: .5rem;
   padding-bottom: .5rem;
+}
+
+/* fourth section */
+
+.fourth {
+  display: flex;
+  flex-direction: column;
+}
+
+.fourth .fourth-container {
+  display: flex;
+
+}
+
+.fourth .heading {
+  font-size: 3rem;
+  font-weight: bold;
+  color: black;
+  padding: 2rem 0rem;
+  text-align: center;
+}
+
+.fourth .left {
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+}
+
+
+.fourth .left .image-container {
+  max-width: 100%;
+  height: auto;
+  padding: 2rem 1.5rem;
+}
+
+.fourth .left .image-container img {
+  width: 100%;
+  height: auto;
+}
+
+.fourth .left .image-text {
+  display: flex;
+  flex-direction: column;
+  padding: 0rem 1.5rem 2rem 1.5rem;
+}
+
+.fourth .left .image-text h2 {
+  font-size: 3rem;
+  font-weight: bold;
+}
+
+.fourth .left .image-text p {
+  font-size: .9rem;
+  padding-top: 1.5rem;
+}
+
+.fourth .right {
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+}
+
+.fourth .right .article {
+  display: flex;
+}
+
+.fourth .right .article .image-container {
+  padding: 1rem;
+  max-width: 35%;
+  display: block;
+}
+
+.fourth .right .article .image-container img {
+  width: 100%;
+  height: auto;
+}
+
+.fourth .right .article .info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 65%;
+}
+
+.fourth .right .article .info h2 {
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.fourth .right .article .info p {
+  font-size: 1rem;
+  padding: .5rem 0rem;
+}
+
+/* footer */
+
+footer {
+  display: flex;
+  justify-content: space-between;
+  border-top: 2px solid grey;
+}
+
+footer .copyright p {
+  padding: 1rem 1.5rem;
+}
+
+.footer-nav {
+  display: flex;
+  justify-content: center;
+}
+
+.footer-nav ul li span{
+  padding: 1rem 1.5rem;
+  font-family: helvetica;
 }
