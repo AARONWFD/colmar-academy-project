@@ -1,11 +1,29 @@
 /* global */
 
+
+
 html {
   font-size: 16px;
 }
 
-h2, p, h4, a, span {
-  font-family: helvetica;
+h2, p {
+  font-family: 'Varela', sans-serif;
+  color:rgba(101,103,105,1);
+}
+
+.button h4 {
+  color: white
+}
+
+h2, h4 {
+  font-family: 'Varela', sans-serif;
+  color:rgba(52,53,54,1);
+}
+
+a {
+  color: rgba(137,185,207,1);
+  font-family: 'Varela', sans-serif;
+  text-decoration: none;
 }
 
 /* header */
@@ -28,14 +46,16 @@ header .logo img {
 }
 
 .colmar {
-  color: black;
+  color:rgba(101,103,105,1);
+  font-family: 'Saira Extra Condensed', sans-serif;
   font-weight: bold;
-  font-size: 1.5rem;
+  font-size: 2rem;
 }
 
 .academy {
-  color: darkgrey;
-  font-size: 1.5rem;
+  color: rgba(202,207,209,1);
+  font-size: 2rem;
+  font-family: 'Saira Extra Condensed', sans-serif;
 }
 
 nav {
@@ -55,18 +75,23 @@ li .spacer {
 }
 
 header span {
-  font-family: helvetica;
+  font-family: 'Varela', sans-serif;
 }
 
   .mobile-nav  {
   display: none;
 }
 
+.mobile-nav img:hover {
+  opacity: .5;
+  height: 3rem;
+}
+
 /* first section */
 
 .first {
   display: flex;
-  background-color: lightgrey;
+  background-color: rgba(202,207,209,1);
 }
 
 .first .left {
@@ -100,6 +125,7 @@ header span {
 .first .right .words h2 {
   font-size: 3rem;
   font-weight: bold;
+
 }
 
 .first .right .words p {
@@ -112,6 +138,10 @@ header span {
   color: white;
   text-align: center;
   padding: .5rem 0rem;
+}
+
+.button:hover {
+  opacity: .5;
 }
 
 /* second section */
@@ -167,6 +197,7 @@ header span {
 .second .right .article .image-container {
   padding: 1rem;
   max-width: 35%;
+  min-width: 35%;
   display: block;
 }
 
@@ -244,7 +275,7 @@ header span {
 }
 
 .third .courses .container .box .bottom h4 {
-  color: black;
+  color: color:rgba(52,53,54,1);
   font-size: 2rem;
   font-weight: bold;
   padding-left: 1rem;
@@ -252,7 +283,7 @@ header span {
 }
 
 .third .courses .container .box .bottom p {
-  color: grey;
+  color: rgba(128,131,133,1);
   font-size: 1rem;
   padding-left: 1rem;
   padding-top: .5rem;
@@ -326,6 +357,7 @@ header span {
 
 .fourth .right .article .image-container {
   padding: 1rem;
+  min-width: 35%;
   max-width: 35%;
   display: block;
 }
@@ -371,7 +403,8 @@ footer .copyright p {
 
 .footer-nav ul li span{
   padding: 1rem 1.5rem;
-  font-family: helvetica;
+  font-family: 'Varela', sans-serif;
+  color:rgba(101,103,105,1);
 }
 
 /* media queries */
