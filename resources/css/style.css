@@ -465,10 +465,89 @@ footer .copyright p {
   width: 100%;
 }
 
+/* third section */
+
+.third {
+  background-color: white;
+}
+
+.third .courses {
+  display: flex;
+  justify-content: center;
+}
+
+.third .courses .container {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+}
+
+.third .courses .container .box {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  padding: 0rem;
+  padding-bottom: .5rem;
+}
+
+.third .courses .container .box .top {
+  display: none;
+}
+
+.third .courses .container .box .bottom {
+  background-color: lightgrey;
+  height: 100%;
+  display: flex;
+}
+
+.third .courses .container .box .bottom h4 {
+  color: black;
+  font-size: 2rem;
+  font-weight: bold;
+  padding: 1rem 1rem 1.5rem 1rem;
+}
+
+.third .courses .container .box .bottom p {
+display: none;
+}
+
+/* fourth section */
+
+.fourth .heading {
+  font-size: 3rem;
+  font-weight: bold;
+  color: black;
+  padding: 2rem 0rem;
+  text-align: center;
+}
+
+.fourth .left {
+  width: 100%;
+}
+
+.fourth .left .image-container {
+  max-width: 100%;
+  height: auto;
+  padding: 0rem 0rem 1.5rem 0rem ;
+}
+
+.fourth .left .image-text {
+  display: none;
+}
+
+.fourth .right {
+  display: none;
+}
+
+.fourth .right .article {
+  display: flex;
+  padding-top: 1rem;
+}
+ /* footer */
+
+ .footer-nav {
+   display: none;
+ }
 
 
-
-
-div {
-  border: 1px solid black;
 }
